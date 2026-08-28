@@ -1,2 +1,14 @@
 # 데이터셋
 data/
+
+# PyTorch 및 모델 가중치 파일
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Hugging Face 및 Trainer 결과 폴더
+results/
+checkpoint-*/
+BERT_model.pt
